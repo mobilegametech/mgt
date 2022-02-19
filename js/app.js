@@ -9,7 +9,7 @@ play.onclick = function(){
     if(text.innerHTML = "32d 22hrs : 30m : 10s"){
         alert("Coming Soon Please Stay Tune!");
         prompt("What's your name in gaming?");
-        alert("name, Welcome to GMT");
+        alert("Welcome to GMT");
     }
  
     text.style.color = "orangered";
