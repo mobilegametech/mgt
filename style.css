@@ -299,6 +299,61 @@ h3 {
 }
 
 
+@media screen and (max-width: 768px) {
+
+  .header {
+    background-image: linear-gradient(rgba(55, 102, 104, 0.377), rgba(55, 102, 104, 0.377)), url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 150vh;
+  }
+
+  .header-text img {
+    margin-top: 20%;
+    margin-right: 25%;
+  }
+
+  .header-text a {
+    margin-left: 14%;
+  }
+
+  .time {
+    margin-top: 50%;
+    margin-right: 15%;
+  }
+
+  .play img {
+    margin-right: 18%;
+  }
+
+  .pro-head p{
+    text-align: center;
+  }
+
+  .line-1 {
+    width: 50%;
+    margin-top: 10px;
+  }
+
+  .line-2{
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .abt-tech li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: azure;
+    padding-bottom: 4px;
+    margin-left: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 1020px) {
 
   .header {
